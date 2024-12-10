@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="incomeTaxCalculator.css">
+    <title>incomeTaxCalculator</title>
+    <div id="header">
+      <img src="file:///C:/Users/Gab/Downloads/Ateneo-de-Davao-Logo-e1518501546893-removebg-preview.png" alt="Flowers in Chania" width="75" height="75">
+
+    </div>
+
+</head>
+
+<body>
+
+    <br>
+    <div id="div1">
+        <p id="assignment">Income Tax Calculator </p>
+        <input type="number" id="input" placeholder="Input Taxable Income"></input>
+        <input type="button" id="calculateButton" value="Calculate Tax">
+        <br>
+    </div>
+
+    <br>
+
+    <table>
+        <tr>
+          <th>Taxable Income</th>
+          <th>Basic Tax + Rate</th>
+        </tr>
+        <tr>
+          <td>Less than P250,000</td>
+          <td> None </td>
+        </tr>
+        <tr>
+          <td>P250,000 - P400,000</td>
+          <td> 20% of the excess over P250,000</td>
+        </tr>
+        <tr>
+          <td>P400,000 - P800,000</td>
+          <td> P30,000 + 25% of the excess over P400,000</td>
+        </tr>
+        <tr>
+          <td>P800,000 - P2,000,000</td>
+          <td> P130,000 + 30% of the excess over P800,000</td>
+        </tr>
+        <tr>
+          <td>P2,000,000 - P8,000,000</td>
+          <td> P490,000 + 32% of the excess over P2,000,000</td>
+        </tr>
+        <tr>
+          <td>P8,000,000 and Greater</td>
+          <td> P2,410,000 + 35% of the excess over P8,000,000</td>
+        </tr>
+      </table>
+
+      <br>
+
+    <div id="div2">
+        <p id="t1">Output </p>
+        <p id="output"> P0.00 </p> 
+    </div>
+    <br>
+    <div id="footer">
+      <h1 id="ho1">Assignment #2: Income Tax Calculator</h1>
+      <h2>By: Gabril Angelo C. Melecio</h2>
+    </div>
+
+    <script src="./incomeTaxCalculator.js"></script>
+
+</body>
+

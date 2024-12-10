@@ -1,0 +1,211 @@
+#header 
+{
+    background-color: rgb(117, 158, 235);
+    height: 70px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid black; 
+}
+
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige ;
+}
+
+.div1
+{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(140, 229, 223);   
+    padding: 10px;
+    width: 30%;
+    margin-left: 1%;
+    float: left;
+}
+#t1
+{
+    font-weight:bold;
+    font-size: 150;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(117, 158, 235);
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.div2
+{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(140, 229, 223);   
+    padding: 10px;
+    width: 30%;
+    float: right;
+    margin-right: 1%;
+   
+}
+#t2
+{
+    font-weight:bold;
+    font-size: 150;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(117, 158, 235);
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.div3
+{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(140, 229, 223);   
+    padding: 10px;
+    width: 30%;
+    float: inline-end;
+    margin-right: 2%;
+
+}
+
+#t3
+{
+    font-weight:bold;
+    font-size: 150;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(117, 158, 235);
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.outPut2
+{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(140, 229, 223);   
+    padding: 10px;
+    width: 20%;
+    margin-right: 12.5%;
+    float: inline-end;
+    float: right;
+}
+
+#out2
+{
+    font-weight:bold;
+    font-size: 150;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(117, 158, 235);
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#putOut
+{
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.outPut3
+{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(140, 229, 223);   
+    padding: 10px;
+    width: 20%;
+    margin-left: 5%;
+    
+}
+
+#out3
+{
+    font-weight:bold;
+    font-size: 150;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(117, 158, 235);
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+#output
+{
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.outPut1
+{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(140, 229, 223);   
+    padding: 10px;
+    width: 20%; 
+    margin-right: 5%; 
+    float: right 
+}
+
+#out1
+{
+    font-weight:bold;
+    font-size: 150;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(117, 158, 235);
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#result
+{
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#hor
+{
+    width: 100%;
+    border-bottom: 2px solid black; 
+}
+
+#hei
+{
+    background-color: rgb(117, 158, 235);
+    height: 285px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid black; 
+}
+
+#text1
+{
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 50%;
+    
+}

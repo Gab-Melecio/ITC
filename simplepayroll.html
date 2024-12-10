@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Pay Roll</title>
+    <link rel="stylesheet" href="simplepayroll.css">
+    <div id="header">
+      <img src="file:///C:/Users/Gab/Downloads/Ateneo-de-Davao-Logo-e1518501546893-removebg-preview.png" alt="Flowers in Chania" width="75" height="75">
+    </div>
+
+</head>
+
+
+<body>
+    <br>
+    <div id="div1">
+      <label for="name">Enter Employee Name:</label>
+        <br>
+      <input type="Text" id="name" placeholder="Enter name here">
+         <br>
+      <label for="days">Enter Days Worked:</label>
+        <br>
+      <input type="number" id="days" placeholder="Enter days here">
+        <br>
+      <label for="rate">Enter Daily Rate:</label>
+        <br>
+      <input type="number" id="rate" placeholder="Enter rate here">
+        <br>
+      <label for="rate">Enter Deduction Amount:</label>
+        <br>
+      <input type="number" id="deduction" placeholder="Enter deduction here">
+        <br> <br>
+      <input type="button" id="add" value="Add">
+      <input type="button" id="delete" value="Delete">
+    </div>
+    
+    <br>
+    
+    <div id="div2">
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Employee Name</th>
+                    <th>Days Worked</th>
+                    <th>Daily Rate</th>
+                    <th>Gross Pay</th>
+                    <th>Deduction Amount</th>
+                    <th>Net Pay</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTableBody">
+                
+            </tbody>
+        </table>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div id="div3">
+      <h1 id="text1">Assignment #4: Simple Payroll</h1>
+      <h2>By: Gabril Angelo C. Melecio</h2>
+    </div>
+    
+    <script src="./simplepayroll.js"></script>
+    
+</body>
+
+<footer>
+</footer>
+
+</html>
