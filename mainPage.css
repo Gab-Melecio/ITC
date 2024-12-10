@@ -91,7 +91,7 @@ body
     margin-right: 25%;
 }
 
-#t4
+#t6
 {
     font-weight: bold;
     border: 1px solid black;
@@ -104,7 +104,7 @@ body
 #footer
 {
     background-color: rgb(117, 158, 235);
-    height: 120px;
+    height: 300px;
     padding: 10px;
     text-align: left;
     border-top: 2px solid black; 
