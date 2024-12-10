@@ -25,6 +25,13 @@
     background-color: beige;
 }
 
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige ;
+}
+
 #div1
 {
     text-align: center;
