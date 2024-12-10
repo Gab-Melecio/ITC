@@ -1,17 +1,28 @@
 #header 
 {
+    display: flex; 
+    align-items: center; 
     background-color: rgb(117, 158, 235);
     height: 70px;
     padding: 10px;
-    text-align: left;
     border-bottom: 2px solid black;
 }
 
-body 
+.addu 
 {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: beige ;
+    margin-right: 10px; 
+}
+
+.main-page-title 
+{
+    font-size: 24px;
+    margin: 0; 
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: beige;
 }
 
 #div1
