@@ -40,16 +40,20 @@ function add()
     document.getElementById('deduction').value = '';
 }
 
-function deleteRow() 
-{
-    var tableBody = document.getElementById('employeeTableBody');
-    if (tableBody.rows.length > 0) 
-    {
-        tableBody.deleteRow(tableBody.rows.length - 1); 
-        employeeCount--; 
-    } 
-    else 
-    {   
-        alert('Nothing To Delete!');
+function deleteEmployeeByIndex(index) {
+    if (confirm("Are you sure you want to delete this employee?")) {
+        employeeList.splice(index, 1);
+        displayEmployees();
+    }
+}
+
+function deleteEmployee() {
+    let lineNumber = prompt("Enter the line number of the employee to delete:");
+
+    if (lineNumber && !isNaN(lineNumber) && lineNumber > 0 && lineNumber <= employeeList.length) {
+        let index = lineNumber - 1;
+        deleteEmployeeByIndex(index);
+    } else {
+        alert("Invalid line number.");
     }
 }
